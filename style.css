@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+a{
+    text-decoration: none;
+}
+}
+button{
+    background-color: mediumblue;
+    padding:5px 12px 5px 12px ;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: medium;
+}
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#Navbar
+    {
+    position: fixed;
+    width: 90%;
+    padding: 15px 3% 15px 3%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#Navbar a{
+    color: blue;
+    margin-right: 10px;
+    
+}
+#Navbar a:hover{
+    color: deeppink;
+
+}
+/* Landing page */
+#Landingpage{
+    height: 90vh;
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#Landingpage .column .line{
+    line-height: 50px;
+}
+#Landingpage .column{
+    width: 50%;
+}
+#Landingpage img{
+    height: 20cm;
+    width: 100%;
+    margin: 0px;
+
+}
+
+
+/* footer */
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+footer .row1{
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+footer .row2{
+    flex-direction: row;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+footer .row2 .icons{
+    display: flex;
+}
+footer .row2 .icons a{
+    color: white;
+    margin-left: 20px;
+}
+/* icons */
+#icons {
+    flex-direction: row;
+    display: flex;
+    color: white;
+}
+/* Services */
+.services {
+    margin-left: 20px;
+    width: 120vh;
+    margin: auto;
+    height: 50vh;
+    padding: 20px;
+}
+.services .clear {
+    text-align: center;
+    line-height: 40px;
+}
+.services .clear .ret {
+    line-height: 20px;
+}
+.services .clear .ret .rod {
+    margin-bottom: 20px;
+
+}
+.services .containers {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.services .containers .cards {
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+}

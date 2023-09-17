@@ -7,11 +7,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 a{
-    text-decoration: none;
+    text-decoration: none
 }
 }
 button{
-    background-color: green;
+    background-color: mediumblue;
     padding:5px 12px 5px 12px ;
     color: white;
     border: none;

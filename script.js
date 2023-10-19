@@ -64,4 +64,25 @@ setTimeout(function(){
 
 
 
- 
+ const pres = ['me']
+ function displayPres(){
+    for(let i = 0;i<pres.length;i++){
+        
+        console.log(`Best president is ${pres[i]}`)
+    }
+ }displayPres();
+
+ const greetPeople = function(){
+    const person = ['jane','aby','nitah']
+    for(let i = 0;i<person.length;i++){
+        console.log(`greet ${person[i]}`)
+    }
+ };console.log(greetPeople());
+
+ const weekDays = function(){
+    const days = ['mon','tue','wed','thur']
+    for(let i = 0;i<days.length;i++){
+        console.log(`The best day is ${days[i]}`)
+    }
+ };console.log(weekDays());
+

@@ -86,3 +86,7 @@ setTimeout(function(){
     }
  };console.log(weekDays());
 
+const myName = function(){
+    const name = ['Shadrack','Bett'];
+    console.log(`my name is ${name}`)
+};console.log(myName())

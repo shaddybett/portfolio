@@ -54,4 +54,14 @@ const name = ['alice']
  },5000)
  }greet()
 
+ function greet(name){
+console.log(`hello ${name}`)
+setTimeout(function(){
+    console.log(' Love Nitah')
+},500);
+ }
+ greet('alice');
+
+
+
  
